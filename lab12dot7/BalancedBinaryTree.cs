@@ -224,7 +224,7 @@ namespace ClassLibraryLab10
             }
             else if (node.CompareTo(key) < 0)
             {
-                node.Right = RemoveNode(node.Right, key);
+                node.Right = RemoveNode(node.Right, key);//
             }
             else
             {
