@@ -176,7 +176,7 @@ namespace ClassLibraryLab10
         {
             if (_root == null)
             {
-                throw new InvalidOperationException("The tree is empty.");
+                throw new InvalidOperationException("Дерево пустое.");
             }
 
             Node<T> current = _root;
